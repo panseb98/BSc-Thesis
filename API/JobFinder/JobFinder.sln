@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobFinder", "JobFinder\JobFinder.csproj", "{5488AE7F-3E70-468D-B9F5-1B702A54FFC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobFinder.Database", "JobFinder.Database", "{EC25DED9-DA29-4D77-9143-F3F2CA22F593}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database", "Database\Database.csproj", "{888F7713-34A7-4457-8A54-A54D7E9F3DDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobFinder.JobSeeker", "JobFinder.JobSeeker", "{C1B0A200-6287-4028-AF9A-75E8B57A7642}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobFinder.Employer", "JobFinder.Employer", "{B9041210-CF2C-4341-8F27-25718BDDCC11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobFinder.Authorization", "JobFinder.Authorization", "{06A74154-CBF8-4D13-9A4C-9086318895F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobFinder.Synchronization", "JobFinder.Synchronization", "{BC5C65A6-4BB6-4100-BCBE-8D499D00BAD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Synchronization", "InitJobOffers\Synchronization.csproj", "{735DDABD-49A6-40F9-87A8-2EBB062C7308}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization", "Authorization\Authorization.csproj", "{2A91F779-421C-4683-9C77-DFD54DC839C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitTests", "xUnitTests\xUnitTests.csproj", "{252725C0-7652-450E-BE09-AE9D6D5EF58F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobSeeker", "JobSeeker\JobSeeker.csproj", "{727128C6-5EB2-42A8-9BBE-2F1A9E59B464}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5488AE7F-3E70-468D-B9F5-1B702A54FFC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5488AE7F-3E70-468D-B9F5-1B702A54FFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5488AE7F-3E70-468D-B9F5-1B702A54FFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5488AE7F-3E70-468D-B9F5-1B702A54FFC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888F7713-34A7-4457-8A54-A54D7E9F3DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888F7713-34A7-4457-8A54-A54D7E9F3DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888F7713-34A7-4457-8A54-A54D7E9F3DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888F7713-34A7-4457-8A54-A54D7E9F3DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735DDABD-49A6-40F9-87A8-2EBB062C7308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735DDABD-49A6-40F9-87A8-2EBB062C7308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735DDABD-49A6-40F9-87A8-2EBB062C7308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735DDABD-49A6-40F9-87A8-2EBB062C7308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A91F779-421C-4683-9C77-DFD54DC839C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A91F779-421C-4683-9C77-DFD54DC839C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A91F779-421C-4683-9C77-DFD54DC839C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A91F779-421C-4683-9C77-DFD54DC839C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{252725C0-7652-450E-BE09-AE9D6D5EF58F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252725C0-7652-450E-BE09-AE9D6D5EF58F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252725C0-7652-450E-BE09-AE9D6D5EF58F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252725C0-7652-450E-BE09-AE9D6D5EF58F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727128C6-5EB2-42A8-9BBE-2F1A9E59B464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727128C6-5EB2-42A8-9BBE-2F1A9E59B464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727128C6-5EB2-42A8-9BBE-2F1A9E59B464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727128C6-5EB2-42A8-9BBE-2F1A9E59B464}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{888F7713-34A7-4457-8A54-A54D7E9F3DDD} = {EC25DED9-DA29-4D77-9143-F3F2CA22F593}
+		{735DDABD-49A6-40F9-87A8-2EBB062C7308} = {BC5C65A6-4BB6-4100-BCBE-8D499D00BAD0}
+		{2A91F779-421C-4683-9C77-DFD54DC839C6} = {06A74154-CBF8-4D13-9A4C-9086318895F7}
+		{727128C6-5EB2-42A8-9BBE-2F1A9E59B464} = {C1B0A200-6287-4028-AF9A-75E8B57A7642}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77B6B9BA-27F2-467F-BECD-3D3205194B01}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+<div *ngIf="isEmptyList">
+  <h2>Uzupełnij swoje CV!</h2>
+</div>
+<div *ngIf="!isEmptyList" class="example-container mat-elevation-z8">
+    <mat-table #table [dataSource]="dataSource">
+  
+      <!-- Position Column -->
+      <ng-container matColumnDef="position">
+        <mat-header-cell *matHeaderCellDef> Lp. </mat-header-cell>
+        <mat-cell *matCellDef="let element; let i = index;"> {{i+1}} </mat-cell>
+      </ng-container>
+  
+      <!-- Name Column -->
+      <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef> Nazwa </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.positionName}} </mat-cell>
+      </ng-container>
+  
+      <!-- Weight Column -->
+      <ng-container matColumnDef="location">
+        <mat-header-cell *matHeaderCellDef> Lokalizacja </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.description}} </mat-cell>
+      </ng-container>
+  
+      <!-- Color Column -->
+      <ng-container matColumnDef="symbol">
+        <mat-header-cell *matHeaderCellDef> Akcja </mat-header-cell>
+        <mat-cell *matCellDef="let element">
+            <button mat-button (click)="submit(element)">
+              Dodaj
+            </button>
+          </mat-cell>     
+     </ng-container>
+  
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  </div>
+  

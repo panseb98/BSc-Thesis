@@ -1,0 +1,32 @@
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\Authorization.deps.json
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\Authorization.runtimeconfig.json
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\Authorization.runtimeconfig.dev.json
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\Authorization.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\Authorization.pdb
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\Database.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\Database.pdb
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\obj\Debug\netcoreapp3.1\Authorization.csprojAssemblyReference.cache
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\obj\Debug\netcoreapp3.1\Authorization.AssemblyInfoInputs.cache
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\obj\Debug\netcoreapp3.1\Authorization.AssemblyInfo.cs
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\obj\Debug\netcoreapp3.1\Authorization.csproj.CopyComplete
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\obj\Debug\netcoreapp3.1\Authorization.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\obj\Debug\netcoreapp3.1\Authorization.pdb
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\JobSeeker.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\JobSeeker.pdb
+C:\Inżynierka\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\Authorization.deps.json
+C:\Inżynierka\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\Authorization.runtimeconfig.json
+C:\Inżynierka\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\Authorization.runtimeconfig.dev.json
+C:\Inżynierka\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\Authorization.dll
+C:\Inżynierka\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\Authorization.pdb
+C:\Inżynierka\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\Database.dll
+C:\Inżynierka\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\JobSeeker.dll
+C:\Inżynierka\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\Database.pdb
+C:\Inżynierka\API\JobFinder\Authorization\bin\Debug\netcoreapp3.1\JobSeeker.pdb
+C:\Inżynierka\API\JobFinder\Authorization\obj\Debug\netcoreapp3.1\Authorization.csprojAssemblyReference.cache
+C:\Inżynierka\API\JobFinder\Authorization\obj\Debug\netcoreapp3.1\Authorization.AssemblyInfoInputs.cache
+C:\Inżynierka\API\JobFinder\Authorization\obj\Debug\netcoreapp3.1\Authorization.AssemblyInfo.cs
+C:\Inżynierka\API\JobFinder\Authorization\obj\Debug\netcoreapp3.1\Authorization.csproj.CopyComplete
+C:\Inżynierka\API\JobFinder\Authorization\obj\Debug\netcoreapp3.1\Authorization.dll
+C:\Inżynierka\API\JobFinder\Authorization\obj\Debug\netcoreapp3.1\Authorization.pdb
+C:\Inżynierka\API\JobFinder\Authorization\obj\Debug\netcoreapp3.1\Authorization.csproj.CoreCompileInputs.cache
+C:\Inżynierka\API\JobFinder\Authorization\obj\Debug\netcoreapp3.1\Authorization.genruntimeconfig.cache

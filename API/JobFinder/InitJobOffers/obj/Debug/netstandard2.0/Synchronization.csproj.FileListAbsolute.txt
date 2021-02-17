@@ -1,0 +1,11 @@
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\bin\Debug\netstandard2.0\Synchronization.deps.json
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\bin\Debug\netstandard2.0\Synchronization.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\bin\Debug\netstandard2.0\Synchronization.pdb
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\bin\Debug\netstandard2.0\Database.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\bin\Debug\netstandard2.0\Database.pdb
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netstandard2.0\Synchronization.csprojAssemblyReference.cache
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netstandard2.0\Synchronization.AssemblyInfoInputs.cache
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netstandard2.0\Synchronization.AssemblyInfo.cs
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netstandard2.0\Synchronization.csproj.CopyComplete
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netstandard2.0\Synchronization.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netstandard2.0\Synchronization.pdb

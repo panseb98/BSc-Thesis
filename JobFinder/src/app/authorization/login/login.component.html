@@ -1,0 +1,33 @@
+
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <mat-card>
+
+      <mat-card-header>
+        <h1>Logowanie</h1>
+      </mat-card-header>
+
+    <!-- Login Form -->
+    <form [formGroup]="form" (ngSubmit)="submit()">
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>Email</mat-label>
+          <input matInput formControlName="username">
+          <mat-error>Pole jest wymagane.</mat-error>
+      </mat-form-field>
+      </p>
+      <mat-form-field appearance="outline">
+        <mat-label>Hasło</mat-label>
+        <input type="password" matInput formControlName="password">
+        <mat-error>Pole jest wymagane.</mat-error>
+    </mat-form-field>
+      <input type="submit" mat-button class="fadeIn fourth" value="Zaloguj się!">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" routerLink="/register">Nie masz konta? Zarejestruj sie!</a>
+    </div>
+  </mat-card>
+

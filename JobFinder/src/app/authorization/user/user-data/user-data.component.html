@@ -1,0 +1,42 @@
+<div class="main1">
+  <mat-card-header>
+		<h1>Witaj {{appState.UserState.username}}, znajdź dla siebie idealną pracę</h1>
+	</mat-card-header>
+<div fxLayout.xs="column" fxLayout="row wrap" fxLayoutGap="10px" ngClass.gt-xs="ml-10">
+  <mat-card fxFlex.sm="0 1 calc(50%-10px)" fxFlex.md="0 1 calc(33%-10px)" fxFlex.gt-md="0 1 calc(50%-10px)">
+    <mat-card-title>Lista umiejętności</mat-card-title>
+    <app-jobs-skills-list></app-jobs-skills-list>
+    <br><br>
+    <mat-card-content><h5>Nie znalazłeś umiejętności, którą posiadasz?</h5></mat-card-content>
+    <mat-card-actions>
+      <input type="submit" mat-button class="fadeIn fourth" value="Poproś o dodanie" (click) ="addSkill()">
+    </mat-card-actions>
+  </mat-card>
+  <br><br>
+  <mat-card fxFlex.sm="0 1 calc(50%-10px)" fxFlex.md="0 1 calc(33%-10px)" fxFlex.gt-md="0 1 calc(50%-10px)">
+    <mat-card-title>Lista nazw stanowisk</mat-card-title>
+    <app-jobs-title-list></app-jobs-title-list>
+
+    <br><br>
+
+    <mat-card-content><h5>Nie znalazłeś stanowiska dla siebie?</h5></mat-card-content>
+    <mat-card-actions>
+      <input type="submit" mat-button class="fadeIn fourth" value="Poproś o dodanie" (click) ="addTitle()">
+    </mat-card-actions>
+  </mat-card>
+  <br><br>
+
+  <mat-card *ngIf="findButtonShow" fxFlex.sm="0 1 calc(50%-10px)" fxFlex.md="0 1 calc(33%-10px)" fxFlex.gt-md="0 1 calc(100%-10px)">
+    <mat-card-actions>
+      <mat-card-title>Kliknij przycisk, aby zobaczyć ofery pracy dla Ciebie!</mat-card-title>
+      <input type="submit" mat-button class="fadeIn fourth" value="Zobacz" (click) ="findJobs()">
+    </mat-card-actions>
+  </mat-card>
+  <mat-card fxFlex.sm="0 1 calc(50%-10px)" *ngIf="!findButtonShow" fxFlex.md="0 1 calc(33%-10px)" fxFlex.gt-md="0 1 calc(100%-10px)">
+    <mat-card-title>Oto najlepsze ofery pracy dla Ciebie!</mat-card-title>
+    <mat-card-actions>
+      <app-jobs-list [userId]="appState.UserState.id" ></app-jobs-list>
+    </mat-card-actions>
+  </mat-card>
+</div>
+</div>

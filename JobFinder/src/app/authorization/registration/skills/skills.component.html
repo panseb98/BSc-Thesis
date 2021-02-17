@@ -1,0 +1,25 @@
+<br><br>
+    <mat-chip-list #chipList aria-label="Inspector selection">
+      <mat-chip
+        *ngFor="let insp of data.value"
+        [selectable]="selectable"
+        [removable]="removable"
+        (removed)="remove(insp.skillId)">
+        {{insp.skillName}}
+        <mat-icon matChipRemove *ngIf="removable">cancel</mat-icon>
+      </mat-chip>
+      <input
+        placeholder="Wpisz umiejętność"
+        #inspectorInput
+        [matAutocomplete]="auto"
+        [formControl]="form"
+        [matChipInputFor]="chipList"
+        [matChipInputSeparatorKeyCodes]="separatorKeysCodes"
+        (matChipInputTokenEnd)="add($event)">
+    </mat-chip-list>
+    <mat-autocomplete #auto="matAutocomplete" (optionSelected)="selected($event)">
+      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+        {{option.skillName}}
+      </mat-option>
+    </mat-autocomplete>
+    <br><br>

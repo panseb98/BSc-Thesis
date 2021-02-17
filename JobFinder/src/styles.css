@@ -1,0 +1,369 @@
+@import "~angular-notifier/styles";
+html,
+body {
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: white;
+}
+
+body {
+  font-family: "Noto Sans KR", Roboto, "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.mat-toolbar.mat-blue {
+  color: white;
+  background-color: #114063;
+}
+
+.mat-flat-button.mat-blue {
+  color: white;
+  background-color: #114063;
+}
+
+.logo {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+.logo img {
+  height: 1.2em;
+}
+.logo .text {
+  background-color: #f3ec78;
+  background-image: linear-gradient(90deg, #f00000, #f00000 16.67%, #ff8000 16.67%, #ff8000 33.33%, #ffff00 33.33%, #ffff00 50%, #007940 50%, #007940 66.67%, #4040ff 66.67%, #4040ff 83.33%, #a000c0 83.33%, #a000c0);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.logo:hover {
+  color: white;
+}
+
+.footer-main {
+  padding: 5px 0;
+  background: #114063;
+  color: white;
+  font-size: 1.5rem;
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+::ng-deep .mat-card-header-text {
+  /* CSS styles go here */
+  width: 0px;
+}
+.mat-card-header-text{
+  width: 0px;
+}
+@media screen and (max-width: 767px) {
+  .footer-main {
+    display: none;
+  }
+}
+
+.footer-image {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.footer-text {
+  margin: auto 0;
+}
+
+
+.main-content {
+  display: flex;
+  position: relative;
+  min-height: 50vh;
+  align-items: flex-start;
+}
+
+.wrapper {
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 50vw;
+}
+@media screen and (max-width: 760px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 767px) {
+  .wrapper {
+    justify-content: space-evenly;
+  }
+}
+
+form {
+  margin: 0 auto;
+  display: block;
+  float: none;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.link-wrapper {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+}
+.link-wrapper > * {
+  padding: 0 15px;
+}
+
+.mat-raised-button.mat-blue,
+.mat-flat-button.mat-blue {
+  background-color: #114063;
+  color: white;
+}
+
+.mat-raised-button.mat-purple,
+.mat-flat-button.mat-purple {
+  background-color: #114063;
+  color: white;
+  border-radius: 0;
+  padding: 0 100px;
+}
+.wrong-message{
+  background: red;
+  color: white;
+}
+.success-message{
+  background: green;
+  color: white;
+}
+.mat-button.mat-white {
+  color: white;
+}
+
+.mat-button.mat-password {
+  color: white;
+  min-width: 1em;
+  line-height: 0;
+  top: -1rem;
+  padding: 0 !important;
+}
+.mat-button.mat-password span {
+  font-size: 12px;
+}
+.mat-button.mat-password .mat-ripple {
+  padding: 0;
+  font-size: 12px;
+  height: auto;
+  width: auto;
+}
+.mat-button.mat-password .mat-button-ripple {
+  padding: 0;
+  font-size: 12px;
+}
+
+.mat-button.mat-yellow {
+  color: yellow;
+}
+
+.mat-button {
+  font-size: 16px !important;
+  padding: 5px 10px !important;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media screen and (min-width: 780px) {
+  .button-wrapper {
+    width: 90vw;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 779px) {
+  .button-wrapper {
+    margin-top: 20px;
+    width: 100vw;
+  }
+}
+
+table {
+  width: 100%;
+}
+
+.mat-elevation-z8 {
+  width: 100%;
+}
+
+.table-wrapper {
+  display: flex;
+}
+@media screen and (min-width: 780px) {
+  .table-wrapper {
+    margin-top: 20px;
+    width: 90vw;
+  }
+}
+@media screen and (max-width: 779px) {
+  .table-wrapper {
+    width: 100vw;
+  }
+}
+
+.matTable_search-bar {
+  width: 100%;
+}
+
+mat-form-field.mat-form-field.searchFormField {
+  font-size: 10px;
+  min-width: 10px !important;
+}
+
+.subtitle {
+  margin-top: 25px !important;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+mat-card-header.mat-card-header {
+  width: 100%;
+  margin-bottom: 15px;
+}
+mat-card-header.mat-card-header .mat-card-header-text {
+  width: 100%;
+}
+
+mat-card-title.mat-card-title.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 25px;
+}
+mat-card-title.mat-card-title.auth .title-img {
+  width: 4rem;
+  height: auto;
+  margin: 0 auto;
+}
+mat-card-title.mat-card-title.auth h2 {
+  width: 100%;
+  height: 1em;
+  color: yellow;
+  margin: 0;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 0.75rem;
+  margin-bottom: -2rem;
+}
+mat-card-title.mat-card-title.auth h2 .e_italic {
+  font-style: italic;
+  font-family: "Calibri", Times, serif;
+  color: white;
+}
+mat-card-title.mat-card-title.auth p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 790px) {
+  .divider {
+    display: inline-block;
+    width: 2px;
+    background-color: white;
+    margin: 0;
+    height: 1em;
+  }
+}
+@media screen and (max-width: 790px) {
+  .divider {
+    display: inline-block;
+    width: 1em;
+    background-color: white;
+    margin: 0 10px;
+    height: 2px;
+  }
+}
+
+.searchForm {
+  width: 100%;
+  display: flex;
+}
+.searchForm > button {
+  margin-left: 15px;
+  font-size: 12px;
+}
+@media screen and (min-width: 790px) {
+  .searchForm {
+    justify-items: flex-start;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 790px) {
+  .searchForm {
+    flex-direction: column;
+  }
+}
+
+.searchFormWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.searchFormWrapper .row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.searchFormWrapper .row > * {
+  margin-left: 15px;
+}
+
+.erob_active {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.leaflet-marker-pane > * {
+  height: auto !important;
+}
+
+.tooltip-blue {
+  background: #114063;
+  color: white;
+}
+
+.tooltip-red {
+  background: red;
+  color: white;
+}
+
+.table-container {
+  overflow-x: auto;
+}

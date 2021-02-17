@@ -1,0 +1,23 @@
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\bin\Debug\netcoreapp3.1\JobSeeker.deps.json
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\bin\Debug\netcoreapp3.1\JobSeeker.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\bin\Debug\netcoreapp3.1\JobSeeker.pdb
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\bin\Debug\netcoreapp3.1\Database.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\bin\Debug\netcoreapp3.1\Database.pdb
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\obj\Debug\netcoreapp3.1\JobSeeker.csprojAssemblyReference.cache
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\obj\Debug\netcoreapp3.1\JobSeeker.AssemblyInfoInputs.cache
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\obj\Debug\netcoreapp3.1\JobSeeker.AssemblyInfo.cs
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\obj\Debug\netcoreapp3.1\JobSeeker.csproj.CopyComplete
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\obj\Debug\netcoreapp3.1\JobSeeker.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\obj\Debug\netcoreapp3.1\JobSeeker.pdb
+C:\Inżynierka\API\JobFinder\JobSeeker\bin\Debug\netcoreapp3.1\JobSeeker.deps.json
+C:\Inżynierka\API\JobFinder\JobSeeker\bin\Debug\netcoreapp3.1\JobSeeker.dll
+C:\Inżynierka\API\JobFinder\JobSeeker\bin\Debug\netcoreapp3.1\JobSeeker.pdb
+C:\Inżynierka\API\JobFinder\JobSeeker\bin\Debug\netcoreapp3.1\Database.dll
+C:\Inżynierka\API\JobFinder\JobSeeker\bin\Debug\netcoreapp3.1\Database.pdb
+C:\Inżynierka\API\JobFinder\JobSeeker\obj\Debug\netcoreapp3.1\JobSeeker.csprojAssemblyReference.cache
+C:\Inżynierka\API\JobFinder\JobSeeker\obj\Debug\netcoreapp3.1\JobSeeker.AssemblyInfoInputs.cache
+C:\Inżynierka\API\JobFinder\JobSeeker\obj\Debug\netcoreapp3.1\JobSeeker.AssemblyInfo.cs
+C:\Inżynierka\API\JobFinder\JobSeeker\obj\Debug\netcoreapp3.1\JobSeeker.csproj.CopyComplete
+C:\Inżynierka\API\JobFinder\JobSeeker\obj\Debug\netcoreapp3.1\JobSeeker.dll
+C:\Inżynierka\API\JobFinder\JobSeeker\obj\Debug\netcoreapp3.1\JobSeeker.pdb
+C:\Inżynierka\API\JobFinder\JobSeeker\obj\Debug\netcoreapp3.1\JobSeeker.csproj.CoreCompileInputs.cache

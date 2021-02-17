@@ -1,0 +1,5 @@
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\bin\Debug\netstandard2.0\JobSeeker.deps.json
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\bin\Debug\netstandard2.0\JobSeeker.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\obj\Debug\netstandard2.0\JobSeeker.csprojAssemblyReference.cache
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\obj\Debug\netstandard2.0\JobSeeker.AssemblyInfoInputs.cache
+D:\Projects\Engineer's Thesis\API\JobFinder\JobSeeker\obj\Debug\netstandard2.0\JobSeeker.AssemblyInfo.cs

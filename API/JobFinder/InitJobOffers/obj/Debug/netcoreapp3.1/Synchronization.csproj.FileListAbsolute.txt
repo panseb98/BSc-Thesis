@@ -1,0 +1,23 @@
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\bin\Debug\netcoreapp3.1\Synchronization.deps.json
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\bin\Debug\netcoreapp3.1\Synchronization.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\bin\Debug\netcoreapp3.1\Synchronization.pdb
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\bin\Debug\netcoreapp3.1\Database.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\bin\Debug\netcoreapp3.1\Database.pdb
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netcoreapp3.1\Synchronization.csprojAssemblyReference.cache
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netcoreapp3.1\Synchronization.AssemblyInfoInputs.cache
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netcoreapp3.1\Synchronization.AssemblyInfo.cs
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netcoreapp3.1\Synchronization.csproj.CopyComplete
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netcoreapp3.1\Synchronization.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netcoreapp3.1\Synchronization.pdb
+C:\Inżynierka\API\JobFinder\InitJobOffers\bin\Debug\netcoreapp3.1\Synchronization.deps.json
+C:\Inżynierka\API\JobFinder\InitJobOffers\bin\Debug\netcoreapp3.1\Synchronization.dll
+C:\Inżynierka\API\JobFinder\InitJobOffers\bin\Debug\netcoreapp3.1\Synchronization.pdb
+C:\Inżynierka\API\JobFinder\InitJobOffers\bin\Debug\netcoreapp3.1\Database.dll
+C:\Inżynierka\API\JobFinder\InitJobOffers\bin\Debug\netcoreapp3.1\Database.pdb
+C:\Inżynierka\API\JobFinder\InitJobOffers\obj\Debug\netcoreapp3.1\Synchronization.csprojAssemblyReference.cache
+C:\Inżynierka\API\JobFinder\InitJobOffers\obj\Debug\netcoreapp3.1\Synchronization.AssemblyInfoInputs.cache
+C:\Inżynierka\API\JobFinder\InitJobOffers\obj\Debug\netcoreapp3.1\Synchronization.AssemblyInfo.cs
+C:\Inżynierka\API\JobFinder\InitJobOffers\obj\Debug\netcoreapp3.1\Synchronization.csproj.CopyComplete
+C:\Inżynierka\API\JobFinder\InitJobOffers\obj\Debug\netcoreapp3.1\Synchronization.dll
+C:\Inżynierka\API\JobFinder\InitJobOffers\obj\Debug\netcoreapp3.1\Synchronization.pdb
+C:\Inżynierka\API\JobFinder\InitJobOffers\obj\Debug\netcoreapp3.1\Synchronization.csproj.CoreCompileInputs.cache

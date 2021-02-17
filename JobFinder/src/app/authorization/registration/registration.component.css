@@ -1,0 +1,73 @@
+
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+
+}
+.mat-form-field{
+    width: 100%;
+}
+.mat-card-header{
+    color: #114063;
+    justify-content: center;
+    align-items: center;
+}
+input[type=button], input[type=submit], input[type=reset]  {
+    background-color: #114063;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: #39ace7;
+  }
+.mat-card{
+    width: 100%;
+}
+.input{
+    width: 50%;
+}
+::ng-deep .mat-table tr.mat-row .mat-cell {
+    padding: 0 5px;
+}
+::ng-deep .mat-table tr.mat-row.clickable:hover {
+    cursor: pointer;
+    background-color: #e4e4e4;
+}
+::ng-deep .mat-card h1 {
+    margin: 1em;
+    padding: 0.5em;
+    border-top: 3px solid #114063;
+    border-bottom: 3px solid #114063;
+    border-radius: 30px 0;
+    text-align: center;
+    font-weight: 500;
+}
+::ng-deep .mat-step-header .mat-step-icon-selected {
+    background-color: #114063; 
+ }
+ ::ng-deep .mat-step-header .mat-step-icon-selected, .mat-step-header .mat-step-icon-state-done, 
+.mat-step-header .mat-step-icon-state-edit {
+    background-color: #114063 !important;
+    color: #114063  !important;
+}
+/*edukacja*/

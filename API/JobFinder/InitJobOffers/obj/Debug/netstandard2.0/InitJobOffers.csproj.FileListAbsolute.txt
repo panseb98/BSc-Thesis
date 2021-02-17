@@ -1,0 +1,11 @@
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\bin\Debug\netstandard2.0\InitJobOffers.deps.json
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\bin\Debug\netstandard2.0\InitJobOffers.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\bin\Debug\netstandard2.0\InitJobOffers.pdb
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netstandard2.0\InitJobOffers.AssemblyInfoInputs.cache
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netstandard2.0\InitJobOffers.AssemblyInfo.cs
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netstandard2.0\InitJobOffers.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netstandard2.0\InitJobOffers.pdb
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netstandard2.0\InitJobOffers.csprojAssemblyReference.cache
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\bin\Debug\netstandard2.0\Database.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\bin\Debug\netstandard2.0\Database.pdb
+D:\Projects\Engineer's Thesis\API\JobFinder\InitJobOffers\obj\Debug\netstandard2.0\InitJobOffers.csproj.CopyComplete

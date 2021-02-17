@@ -1,0 +1,7 @@
+select gm_prod."nkasowa" as Taryfa, gm_prod."wagaopbrutto" as waga,  INVI_COUNT ilosc,  INVI_PRICE as wartosc, INV_CURRENCY_CODE as waluta, parent.PR_CODE as symbol 
+from in_invoice_items invo_items
+join in_invoices  on inv_id = invi_inv_id
+join wb_products child on child.PR_ID = invo_items.invi_pr_id
+join wb_products parent on parent.pr_id = child.pr_pr_id_parent
+join "gm_mater" gm_prod on gm_prod."id" = parent.pr_gm_id 
+where inv_id = 2137 

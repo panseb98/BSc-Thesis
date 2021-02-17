@@ -1,0 +1,11 @@
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\bin\Debug\netstandard2.0\Authorization.deps.json
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\bin\Debug\netstandard2.0\Authorization.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\obj\Debug\netstandard2.0\Authorization.csprojAssemblyReference.cache
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\obj\Debug\netstandard2.0\Authorization.AssemblyInfoInputs.cache
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\obj\Debug\netstandard2.0\Authorization.AssemblyInfo.cs
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\bin\Debug\netstandard2.0\Authorization.pdb
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\bin\Debug\netstandard2.0\Database.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\bin\Debug\netstandard2.0\Database.pdb
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\obj\Debug\netstandard2.0\Authorization.csproj.CopyComplete
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\obj\Debug\netstandard2.0\Authorization.dll
+D:\Projects\Engineer's Thesis\API\JobFinder\Authorization\obj\Debug\netstandard2.0\Authorization.pdb

@@ -1,0 +1,49 @@
+<!-- <div style="height: 100vh; "> -->
+  <div>
+    <mat-toolbar color="blue" *ngIf="appState.isLogged()">
+      <mat-toolbar-row fxLayout="row" fxLayoutAlign="space-between" >
+        <a class="logo">
+          <a  routerLink="/mapa">
+            <span >#TwojaNowaPraca2</span>
+          </a>
+        </a>
+        <span class="menu-spacer"></span>
+        <div fxShow="true" fxHide.lt-md fxLayoutAlign="end center" style="width: 100%">
+          <ng-container >
+            <button mat-button *ngIf="appState.canDisplay(['NormalUser'])"  color='{{activated === "/user/data" ? "yellow" : "white"}}' (click)="endRegistration()">Uzupełnij swoje CV!</button>
+            <button mat-button  *ngIf="appState.canDisplay(['Admin'])" color='{{activated === "/admin/requests" ? "yellow" : "white"}}'  routerLink="/admin/requests">Administracja</button>
+            <button mat-button [matMenuTriggerFor]="menu" position="end">
+              <mat-icon aria-hidden="false" aria-label="Example home icon">account_circle</mat-icon>
+              Moje konto
+            </button>
+            <mat-menu #menu="matMenu">                
+              <button mat-menu-item (click)="logout()">Wyloguj</button>
+            </mat-menu>
+          </ng-container>
+        </div>
+        <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxFlexAlign="center" fxHide.gt-sm>
+          <mat-icon>menu</mat-icon>
+        </button>
+      </mat-toolbar-row>
+    </mat-toolbar>
+    <mat-sidenav-container fxFlexFill>
+      <mat-sidenav #sidenav position="end">
+        <mat-nav-list>
+          <a (click)="sidenav.close()" routerLink="/inwestycje" mat-list-item>Inwestycje</a>
+          <a (click)="sidenav.close()" routerLink="/inwestycje" mat-list-item>Inwestycje</a>
+          <a (click)="sidenav.close()" routerLink="/inwestycje" mat-list-item>Inwestycje</a>
+
+        </mat-nav-list>
+      </mat-sidenav>
+      <mat-sidenav-content fxFlexFill>
+        <main class="main-content">
+          <router-outlet></router-outlet>
+        </main>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+  </div>
+  
+  <ng-template #login>
+    <button mat-button routerLink="/auth">Zaloguj</button>
+  </ng-template>
+  
